@@ -2,7 +2,7 @@ namespace SafeTingz
 {
     using System;
     using System.IO;
-    public class FileIO
+    public class FileIO : IFileIO
     {
         private string _filePath;
         public string Data;

@@ -2,7 +2,7 @@ namespace SafeTingz
 {
     using System;
     using System.Text;
-    public class Encryption
+    public class Encryption : IEncryption
     {
         public string EncryptedData;
         public Encryption()

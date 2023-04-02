@@ -2,7 +2,7 @@ namespace SafeTingz
 {
     using System;
     using System.IO;
-    public class UserCredentials
+    public class UserCredentials : IUserCredentials
     {
         public byte Offset;
 
