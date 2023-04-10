@@ -9,7 +9,7 @@ namespace UnitTests
     public class TestFileIo
     {
         [Test]
-        public void Test1()
+        public void TestReadFile()
         {
             FileIO fileIo = new FileIO();
             fileIo._filePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)+"/../../TestDocuments/MiniTestFile.txt";

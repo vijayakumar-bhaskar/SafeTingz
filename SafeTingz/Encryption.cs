@@ -13,8 +13,9 @@ namespace SafeTingz
         public void Encrypt(string data,int offset)
         {
             StringBuilder sb = new StringBuilder();
-            foreach (char eachChar in data)
+            for (int i = 0; i < data.Length; i++)
             {
+                char eachChar = data[i];
                 sb.Append((char)((offset + eachChar) % 255));
             }
 
